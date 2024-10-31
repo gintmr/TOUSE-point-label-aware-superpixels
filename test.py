@@ -8,6 +8,4 @@ labels_array = np.arange(B * H * W * C).reshape((B, H, W, C))
 selected_slice = labels_array[:, 1]
 
 print("Original array shape:", labels_array.shape)
-print("Original array:", labels_array)
-print("Selected slice shape:", selected_slice.shape)
 print("Selected slice:", selected_slice)
